@@ -1,0 +1,7 @@
+---
+- hosts: web
+  remote_user: root
+  tasks:
+    - name: Install sphinx
+      pip:
+        name: sphinx
